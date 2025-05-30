@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/CursoAlura.iml" filepath="$PROJECT_DIR$/.idea/CursoAlura.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Basico/basicoProject/basicoProject.iml" filepath="$PROJECT_DIR$/Java/Basico/basicoProject/basicoProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Basico/exerciciosClasses/exerciciosClasses.iml" filepath="$PROJECT_DIR$/Java/Basico/exerciciosClasses/exerciciosClasses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Basico/screenMatch/screenMatch.iml" filepath="$PROJECT_DIR$/Java/Basico/screenMatch/screenMatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Basico/tabuada/tabuada.iml" filepath="$PROJECT_DIR$/Java/Basico/tabuada/tabuada.iml" />
+    </modules>
+  </component>
+</project>

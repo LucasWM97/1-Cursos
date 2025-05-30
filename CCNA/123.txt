@@ -1,0 +1,10 @@
+cabeamento
+
+equipamentos iguais
+ligação de cabos crossover
+
+equipamentos diferetes
+ligação de cabos reto
+
+exceção
+roteador e computador - ligação de cabos crossover

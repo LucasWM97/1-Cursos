@@ -1,0 +1,22 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("Ola mundo");
+		System.out.println("Bom dia");
+		
+		int y = 32;
+		
+		System.out.println(y);
+		
+		
+		double x = 10.35784;
+		
+		System.out.println(x)
+		
+		
+		
+
+	}
+
+}
