@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Main</title>
+</head>
+
+<body>
+  <div id="black-background" class="modal3"></div>
+  <header>
+    <h1>KONTACTS</h1>
+    <img id="logoff" src="../assets/Vector.svg" alt="">
+  </header>
+
+  <div class="table">
+    <button id="button-add" class="add-button">Adicionar</button>
+
+    <table>
+      <tr>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>Telefone</th>
+        <th></th>
+      </tr>
+
+      <tr>
+        <td>Claudia M.Sousa</td>
+        <td>claudia@teste.com.br</td>
+        <td>(99)99999-9999</td>
+        <td><img src="../assets/Icon-Trash.svg" alt=""></td>
+      </tr>
+
+      <tr>
+        <td>João Santos</td>
+        <td>joao@teste.com.br</td>
+        <td>(99)99999-9999</td>
+        <td><img src="../assets/Icon-Trash.svg" alt=""></td>
+      </tr>
+
+      <tr>
+        <td>Pendro Henrique</td>
+        <td>pedro.henrique@teste.com.br</td>
+        <td>(99)99999-9999</td>
+        <td><img src="../assets/Icon-Trash.svg" alt=""></td>
+      </tr>
+
+      <tr>
+        <td>Marina Tavares</td>
+        <td>marina_tavares@teste.com.br</td>
+        <td>(99)99999-9999</td>
+        <td><img src="../assets/Icon-Trash.svg" alt=""></td>
+      </tr>
+
+      <tr>
+        <td>Daniel Lopes</td>
+        <td>daniel.lopes@cubos.academy</td>
+        <td>(99)99999-9999</td>
+        <td><img src="../assets/Icon-Trash.svg" alt=""></td>
+      </tr>
+
+      <tr>
+        <td>Guido Cerqueira</td>
+        <td>guido.cerqueira@cubos.academy</td>
+        <td>(99)99999-9999</td>
+        <td><img src="../assets/Icon-Trash.svg" alt=""></td>
+      </tr>
+    </table>
+  </div>
+  <form>
+    <div id="contact-new" class="new-contact">
+      <h1>Novo Contato</h1>
+      <img id="bottom-close" class="close-bottom" src="../assets/Vector (1).svg" alt="">
+      <input type="text" id="new-name" placeholder="Nome">
+      <input type="email" name="" id="new-email" placeholder="E-mail">
+      <input type="tel" name="" id="phone" placeholder="Telefone">
+      <span id="alert"></span>
+      <button id="button-green" class="green-button">ADICIONAR</button>
+      <button id="red-button" class="red-button">CANCELAR</button>
+    </div>
+  </form>
+
+
+
+  <div id="bottom-excluir" class="excluir">
+    <img id="bottom-close2" class=" close-bottom2" src="../assets/Vector (1).svg" alt="">
+    <h1>Confirmar a exclusão?</h1>
+    <span>Deseja excluir o contato?</span>
+    <button id="exclude-bottom" class=" green-button2">EXCLUIR</button>
+    <button id="cancel-button" class="red-button2">CANCELAR</button>
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>

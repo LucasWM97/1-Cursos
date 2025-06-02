@@ -1,0 +1,47 @@
+.container_cardCompleted {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.card_completed {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 512px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  background-color: #f0f0f5;
+  margin: 12vh auto 24px auto;
+}
+
+.card_completed img {
+  width: 104px;
+  height: 104px;
+}
+
+.card_completed h1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0em;
+  margin-top: 24px;
+}
+
+.container_cardCompleted button {
+  height: 33px;
+  padding: 4px 40px 4px 40px;
+  border-radius: 10px;
+  align-self: center;
+  background-color: #da0175;
+  color: #f8f8f9;
+  font-family: Nunito, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  border: none;
+}

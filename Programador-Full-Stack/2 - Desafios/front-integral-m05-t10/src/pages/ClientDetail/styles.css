@@ -1,0 +1,217 @@
+.client-detail-page-container {
+  background-color: #f8f8f9;
+
+  display: flex;
+}
+
+.client-detail-main {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.client-detail-content {
+  width: 95%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+
+  color: #3f3f55;
+}
+
+.client-detail-content h1,
+.client-detail-content h3 {
+  font-family: Montserrat;
+}
+
+.client-detail-content > * {
+  width: 100%;
+}
+
+.client-detail-content button {
+  width: 250px;
+  height: 35px;
+  border-radius: 10px;
+
+  font-size: 16px;
+}
+
+.client-name {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  gap: 10px;
+
+  height: 30px;
+}
+
+.client-detail-data-card,
+.client-charges-card {
+  background-color: #ffffff;
+
+  border-radius: 20px;
+
+  padding: 10px 30px;
+
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.client-detail-data-card {
+  height: 250px;
+}
+
+.client-detail-data-card span {
+  /* font-size: 15px; */
+
+  font-weight: 400;
+}
+
+.client-charges-card {
+  gap: 15px;
+
+  height: 300px;
+
+  padding: 20px 30px;
+}
+
+.heading {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.edit-client-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: var(--cinza-claro);
+
+  color: #0e8750;
+
+  border: 1px solid #dedee9;
+  cursor: pointer;
+}
+
+.edit-client-button img {
+  width: 15px;
+
+  margin-right: 5px;
+}
+
+.client-data {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  gap: 25px;
+}
+
+.client-address-data {
+  width: 100%;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 25px;
+}
+
+.charges-client {
+  width: 100%;
+  height: 200px;
+
+  overflow-y: scroll;
+}
+
+.new-charge-button {
+  color: #ffffff;
+
+  border: none;
+  background-color: #da0175;
+}
+
+.table-charges-client {
+  width: 100%;
+}
+
+.table-charges-client thead tr,
+.table-charges-client tbody tr {
+  width: 100%;
+  border-bottom: none;
+}
+
+.table-charges-client tr th img {
+  width: 15px;
+  height: 15px;
+}
+
+.table-charges-client tr th,
+.table-charges-client tr td {
+  width: 100%;
+  height: 30px;
+
+  margin: 10px 0;
+  padding: 0 3px;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  border-radius: 0;
+}
+
+.icons-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 15px;
+  cursor: pointer;
+}
+
+.client-data .email {
+  width: 300px;
+}
+
+.client-address-data .address {
+  width: 300px;
+}
+
+.client-address-data .district,
+.client-address-data .complement {
+  width: 205.8px;
+}
+
+.client-address-data .uf,
+.client-address-data .cep,
+.client-address-data .city {
+  width: 120.8px;
+}
+
+.client-address-data .uf {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.cep-city-uf {
+  display: flex;
+  width: 400px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 70px;
+}

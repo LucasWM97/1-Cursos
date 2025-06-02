@@ -1,0 +1,71 @@
+body{
+  background-color: #E5E5E5;
+}
+
+
+.container  {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.card{
+  width: 332px;
+  height: 299px;
+  display: flex;
+  background-color: #FFFFFF;
+  flex-direction: column;
+  border-radius: 10px;
+  
+}
+.close{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-self: flex-end;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.cookie{
+  width: 86px;
+  height: 86px;
+  display: flex;
+  align-self: center;
+  
+}
+.text{
+  width: 230px;
+  
+  display: flex;
+  align-self: center;
+  text-align: center;
+}
+
+button{
+  width: 150px;
+  height: 39px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center; 
+  color: white;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+button:hover{
+ opacity: 0.85; 
+}
+.red {
+background-color: #ED6755;
+}
+
+.blue {
+  background-color: #1C1B5E;
+  }

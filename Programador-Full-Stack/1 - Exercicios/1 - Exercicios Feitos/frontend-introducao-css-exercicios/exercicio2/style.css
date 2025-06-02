@@ -1,0 +1,33 @@
+.verde {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+
+}
+
+.azul {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+
+
+}
+
+.vermelho {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+
+
+}
+
+.horizontal {
+    display: inline-block;
+    margin: 2px;
+    margin-bottom: 50px;
+}
+
+.vertical {
+    margin: 2px;
+    padding: 0;
+}

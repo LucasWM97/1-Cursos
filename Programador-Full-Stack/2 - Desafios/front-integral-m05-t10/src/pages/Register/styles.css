@@ -1,0 +1,11 @@
+.container_register {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.MuiBox-root {
+  width: 100%;
+}

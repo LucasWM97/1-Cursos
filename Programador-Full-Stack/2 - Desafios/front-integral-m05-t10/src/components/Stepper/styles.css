@@ -1,0 +1,70 @@
+.MuiStepLabel-label {
+  color: #0e8750 !important;
+  margin-left: 60px;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  font-family: Montserrat, sans-serif !important;
+  position: relative;
+}
+
+.MuiStepLabel-root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 25px;
+}
+
+.MuiStepLabel-labelContainer {
+  position: relative;
+  top: 5px;
+}
+
+.MuiStepLabel-label.Mui-active {
+  color: #0e8750;
+  margin-left: 60px;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  position: relative;
+}
+
+.MuiStepLabel-iconContainer {
+  align-self: flex-start;
+  margin-left: 10px;
+  margin-top: 5px;
+  position: absolute;
+}
+
+.MuiStepLabel-iconContainer.Mui-active {
+  align-self: flex-start;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.MuiStepConnector-line.MuiStepConnector-lineVertical {
+  border-left-width: 3px;
+  height: 40px;
+  border-color: #0e8750;
+  margin-left: 12px;
+  padding: 0;
+}
+
+.MuiStepLabel-root.MuiStepLabel-vertical {
+  padding: 0;
+}
+
+.MuiStep-root.MuiStep-vertical {
+  width: 100%;
+  position: relative;
+  bottom: 25px;
+}
+
+.MuiStepConnector-root {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.MuiCollapse-wrapperInner {
+  display: none;
+}

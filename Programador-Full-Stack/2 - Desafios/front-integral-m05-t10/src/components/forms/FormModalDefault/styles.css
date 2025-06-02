@@ -1,0 +1,141 @@
+.register-client-modal {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.226);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+}
+
+.box-form-register {
+  display: flex;
+  width: 600px;
+  height: 850zpx;
+  border-radius: 30px;
+  flex-shrink: 0;
+}
+
+.title-register-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.title-register-container .title {
+  color: var(--cinzas-cinza-2, #3f3f55);
+  font-family: Montserrat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.title-register-container .close-icon {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+}
+
+.form-group-container-register-client {
+  position: relative;
+  background: #ffffff;
+  border-radius: 30px;
+  padding: 38px 56px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.forms-container-register-client {
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.first-type-division {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.first-type-division div {
+  width: 100%;
+}
+
+.second-type-division {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  gap: 24px;
+  margin-bottom: 20px;
+}
+
+.second-type-division div:first-child {
+  width: 100%;
+}
+
+.second-type-division .uf-client {
+  width: 34%;
+}
+
+.buttons-register-client {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  gap: 24px;
+}
+
+.buttons-register-client button {
+  width: 232px;
+}
+.buttons-register-client .apply {
+  display: flex;
+  padding: 4px 87.25px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+
+  border-radius: 10px;
+  background: #da0175;
+  border: none;
+
+  color: var(--cinzas-cinza-8, #f8f8f9);
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.buttons-register-client .cancel {
+  display: flex;
+  padding: 4px 87.25px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+
+  border-radius: 10px;
+  border: 1px solid var(--cinzas-cinza-6, #dedee9);
+  background: var(--cinzas-cinza-8, #f8f8f9);
+
+  color: var(--principais-verde-normal, #0e8750);
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}

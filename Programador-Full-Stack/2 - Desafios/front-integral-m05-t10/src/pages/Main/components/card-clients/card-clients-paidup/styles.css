@@ -1,0 +1,10 @@
+.qt-clientes-em-dia{
+    background-color:#eef6f6;
+    color: #1FA7AF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 20px;
+    border-radius: 8px;
+}

@@ -1,0 +1,39 @@
+.centralizado {
+    text-align: center;
+}
+
+.alinhado-esquerda {
+    text-align: left;
+}
+
+.alinhado-direita {
+    text-align: right;
+}
+
+.sublinhado {
+    text-decoration-line: underline;
+}
+
+.azul {
+    color: blue;
+}
+
+.verde {
+    color: green;
+}
+
+.amarelo {
+    color: yellow;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.maiusculas {
+    text-transform: uppercase;
+}
+
+.sombra {
+    text-shadow: 2px 2px 2px red;
+}

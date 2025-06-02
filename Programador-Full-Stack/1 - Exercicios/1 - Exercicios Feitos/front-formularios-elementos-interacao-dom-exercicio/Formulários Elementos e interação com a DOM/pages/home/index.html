@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../css/style.css">
+  <title>Ex1</title>
+</head>
+
+<body>
+  <h1>Incrição Vestibular</h1>
+  <form>
+    <label for="input-name">Informe seu nome</label>
+    <input type="text" placeholder="Ex.:João da Silva" id="input-name">
+
+    <label for="input-name">Informe seu e-mail</label>
+    <input type="email" placeholder="email@email.com" id="input-email">
+
+    <label for="input-birthday">Informe seu ano de nascimento</label>
+    <input type="number" placeholder="Ex.:1992" id="input-birthday">
+
+    <label for="select-city">Selecione a sua cidade da prova</label>
+    <select name="select" id="select-age">
+      <option value="empty" selected>Selecione uma cidade</option>
+      <option value="AC">Acre</option>
+      <option value="AL">Alagoas</option>
+      <option value="AP">Amapá</option>
+      <option value="AM">Amazonas</option>
+      <option value="BA">Bahia</option>
+      <option value="CE">Ceará</option>
+      <option value="DF">Distrito Federal</option>
+      <option value="ES">Espírito Santo</option>
+      <option value="GO">Goiás</option>
+      <option value="MA">Maranhão</option>
+      <option value="MT">Mato Grosso</option>
+      <option value="MS">Mato Grosso do Sul</option>
+      <option value="MG">Minas Gerais</option>
+      <option value="PA">Pará</option>
+      <option value="PB">Paraíba</option>
+      <option value="PR">Paraná</option>
+      <option value="PE">Pernambuco</option>
+      <option value="PI">Piauí</option>
+      <option value="RJ">Rio de Janeiro</option>
+      <option value="RN">Rio Grande do Norte</option>
+      <option value="RS">Rio Grande do Sul</option>
+      <option value="RO">Rondônia</option>
+      <option value="RR">Roraima</option>
+      <option value="SC">Santa Catarina</option>
+      <option value="SP">São Paulo</option>
+      <option value="SE">Sergipe</option>
+      <option value="TO">Tocantins</option>
+    </select>
+
+
+    <h3>Em qual periodo deseja realizar a prova?</h3>
+    <div>
+      <input type="radio" id="morning" value="morning" name="period">
+      <label for="morning">Manhã</label>
+    </div>
+    <div>
+      <input type="radio" id="evening" value="evening" name="period">
+      <label for="evening">Tarde</label>
+    </div>
+    <div>
+      <input type="radio" id="night" value="night" name="period">
+      <label for="night">Noite</label>
+    </div>
+
+    <h3>Em quais cursos voce tem interesse?</h3>
+    <div>
+      <input type="checkbox" id="math" value="math">
+      <label for="math">Matematica</label>
+    </div>
+    <div>
+      <input type="checkbox" id="tech"" value=" tech">
+      <label for="tech">Ciencias da Computacao</label>
+    </div>
+    <div>
+      <input type="checkbox" id="data" value="data">
+      <label for="data">Data Science</label>
+    </div>
+
+
+    <label for="input-password">Senha de recupeção</label>
+    <input type="password" id="input-password">
+    <strong></strong>
+    <button>SALVAR</button>
+
+
+  </form>
+
+  <script type="text/javascript" src="../../js/script.js"></script>
+</body>
+
+</html>

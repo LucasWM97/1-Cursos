@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+
+  background-color: black;
+}
+
+.pallet {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-image: url("../assets/scene.jpg");
+  background-size: 70% 70%;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+
+}
+
+.ash {
+
+  width: 4%;
+  height: 9%;
+  position: absolute;
+  top: 17%;
+  left: 81%;
+}

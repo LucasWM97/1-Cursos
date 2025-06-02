@@ -1,0 +1,38 @@
+:root{
+  --cinza-7 :#F0F0F5;
+}
+ 
+.container-nav{
+  width: 88px;
+  min-height: 100vh;
+  background-color: var(--cinza-7) ;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  margin: 20px;
+}
+
+div span{
+  display: flex;
+  flex-direction: column;
+}
+
+.container-nav  div{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+
+

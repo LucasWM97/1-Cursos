@@ -1,0 +1,18 @@
+.container_nextSteps {
+  display: flex;
+  justify-content: space-between;
+  width: 262px;
+  height: 6px;
+  position: absolute;
+  bottom: 40px;
+  right: 403px;
+}
+
+.container_nextSteps div {
+  width: 82px;
+  height: 6px;
+}
+
+.nextSteps {
+  width: 100%;
+}

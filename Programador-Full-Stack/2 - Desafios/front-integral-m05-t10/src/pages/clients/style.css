@@ -1,0 +1,183 @@
+.page-container {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f8f8f9;
+}
+.clients-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.clients-header {
+  width: 1200px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.clients-icon {
+  width: 650px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.clients-icon img {
+  padding-right: 15px;
+  
+}
+
+.search {
+  height: 40px;
+  width: 320px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: white;
+ 
+}
+
+.search input {
+  height: 100%;
+  width: 230px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+
+}
+.search img{
+  margin-right: 10px;
+}
+
+.filter-button {
+  cursor: pointer;
+}
+
+.table-clients {
+  border-collapse: collapse;
+  width: 1200px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+.table-clients thead tr:first-child th {
+  padding: 5px;
+}
+
+
+
+.table-clients th, .table-clients td {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  border-radius: 30px;
+
+  background-color: #FFFFFF;
+
+}
+
+.table-clients th {
+  background-color: #ffffff;
+}
+
+.table-clients tbody tr {
+  border-top: 1px solid #eff0f6;
+  border-radius: 10px;
+}
+
+.table-clients th img {
+  width: 20px;
+  height: 20px;
+  margin-top: 12px;
+}
+
+
+.defaulter{
+  width: 110px;
+  background-color: #FFEFEF;
+  color: #971D1D;
+  font-family: 'Nunito', sans-serif;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 19.1px;
+}
+
+.defaulting {
+  width: 96px;
+
+  background-color: #EEF6F6;
+  color: #1FA7AF;
+  font-family: 'Nunito', sans-serif;
+  border-radius: 8px;
+  line-height: 19.1px;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+.data {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400px;
+  font-size: 14px;
+  color: #747488;
+  line-height: 40px;
+  letter-spacing: 0.5%;
+  text-align: center;
+  
+}
+
+.data-title {
+font-family: Nunito;
+font-size: 16px;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: 0.005em;
+color:#3F3F55;
+
+}
+
+.page-number{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  gap: 40px;
+  justify-content: space-around;
+}
+
+.styled-number{
+  color: #DA0175;
+  cursor: pointer;
+}
+
+.styled-number:hover{
+  font-size: 20px;
+  transition: font-size 0.3s ease; 
+}
+
+
+.patern-number:hover{
+  font-size: 20px;
+  transition: font-size 0.3s ease; 
+}
+
+.patern-number{
+  color: black;
+  cursor: pointer;
+}

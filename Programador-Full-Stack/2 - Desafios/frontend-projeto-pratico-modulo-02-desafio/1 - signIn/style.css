@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+.img-left {
+
+  height: 100vh;
+  width: 50vw;
+  background-image: url("../assets/Imagem\ Esquerda.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+.right-side {
+  height: 100vh;
+  width: 50vw;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome {
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.make-login {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+input,
+button {
+  width: 50%;
+  height: 5%;
+  margin: 10px;
+}
+
+input {
+  background-color: #FDFAFA;
+  border: 1px solid #E8E8E8
+}
+
+
+button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #FFFFFF;
+  background: #04C45C;
+  border-radius: 8px;
+  border: none;
+
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 19px;
+
+  text-align: center;
+  cursor: pointer;
+}
+
+
+a {
+  color: #1972A8;
+  text-decoration: none;
+}

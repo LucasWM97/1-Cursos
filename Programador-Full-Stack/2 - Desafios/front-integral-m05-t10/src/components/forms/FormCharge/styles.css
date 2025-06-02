@@ -1,0 +1,197 @@
+.edit-modal {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.226);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+}
+
+.box-form {
+  display: flex;
+  width: 491px;
+  height: 623px;
+  border-radius: 30px;
+  flex-shrink: 0;
+}
+
+.form-group-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.forms-container {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.forms-container p {
+  margin-left: 0px;
+}
+
+.form-group-container {
+  position: relative;
+  background: #ffffff;
+  border-radius: 30px;
+  padding: 40px 56px;
+  display: flex;
+  flex-direction: column;
+}
+
+.descricao-label {
+  font-weight: bold;
+  margin-bottom: -16px;
+}
+
+.descricao  {
+  width: 100%;
+  height: 88px;
+  display: flex;
+  padding: 10px 14px;
+
+  border-radius: 8px;
+  border: 1px solid #d0d5dd;
+  background: var(--white, #fff);
+
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+
+  color: var(--gray-500, #667085);
+
+  font-family: Nunito, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+
+  resize: none;
+}
+
+.descricao.descricao-error{
+  width: 100%;
+  height: 88px;
+  display: flex;
+  padding: 10px 14px;
+
+  border-radius: 8px;
+  border: 1px solid #e74c3c;
+  ;
+  background: var(--white, #fff);
+
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+
+  color: var(--gray-500, #667085);
+
+  font-family: Nunito, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+
+  resize: none;
+
+}
+
+.error-descricao {
+  left: 0;
+  color: #e74c3c;
+  font-size: 10px;
+  margin: -15px 0 -15px 0;
+}
+
+.vencimentovalor {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.title-registercharge {
+  color: var(--cinzas-cinza-1, #343447);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.x-registercharge {
+  position: absolute;
+  right: 24px;
+  top: 23px;
+  cursor: pointer;
+}
+
+.cobrancapendente-label, .cobrancapaga-label{
+  margin-left: 10px;
+}
+
+[type=radio] { 
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.cobrancapagacontaier {
+  margin-bottom: -13px;
+}
+
+.cobrancapagacontaier,
+.cobrancapendentecontaier {
+  display: flex;
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 10px;
+  background: var(--cinzas-cinza-7, #f0f0f5);
+}
+
+.cobrancapaga {
+  margin-right: 5px;
+}
+
+.cobrancastatus-title {
+  font-weight: bold;
+  margin-bottom: -16px;
+}
+
+.buttonsForm {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.cancelar,
+.aplicar {
+  display: inline-flex;
+  height: 34px;
+  padding: 4px 81.5px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  width: 50px;
+  cursor: pointer;
+
+  border-radius: 10px;
+  border: 1px solid var(--cinzas-cinza-6, #dedee9);
+}
+
+
+.aplicar {
+  background: var(--principais-rosa-normal, #da0175);
+  color: #F8F8F9;
+}
+
+.cancelar {
+  color: #0E8750;
+}

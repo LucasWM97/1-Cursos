@@ -1,0 +1,141 @@
+.button-home a {
+  color: #5FB4A2
+}
+
+.hero-image {
+  width: 1110px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 149px;
+  background-image: url("../../assets/home/image-homepage-hero.jpg");
+  background-size: 100% 100%;
+  display: flex;
+}
+
+.introduce-box {
+  width: 445px;
+  height: 357px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-self: end;
+  justify-content: space-between;
+
+}
+
+.introduce-text h1 {
+  width: 390px;
+  height: 200px;
+
+  display: flex;
+  align-self: center;
+  margin-top: 56px;
+
+  font-family: 'Ibarra Real Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: -0.446429px;
+  color: #33323D;
+
+}
+
+.blue-button {
+  width: 200px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  background: #203A4C;
+  border-style: none;
+  text-decoration: none;
+}
+
+.blue-button:hover {
+  background: #5FB4A2;
+
+}
+
+.about-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0000001A;
+}
+
+
+
+.about-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 152px;
+  height: 48px;
+
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+
+
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.main-img {
+  width: 1110px;
+  height: 601px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 155px;
+  display: flex;
+
+}
+
+.main-img img {
+  width: 540px;
+  height: 600px;
+}
+
+.about-me {
+  height: 600px;
+  width: 630px;
+  display: flex;
+  margin-left: 100px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  border-top: 1px solid #33323D;
+  border-bottom: 1px solid #33323D;
+
+}
+
+.about-me h2 {
+  font-family: 'Ibarra Real Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+  color: #33323D;
+
+}
+
+.about-me p {
+
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #33323D;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+
+}

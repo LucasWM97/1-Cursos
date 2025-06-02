@@ -1,0 +1,10 @@
+.qt-cob-prev{
+display: flex;
+justify-content: center;
+align-items: center;
+    text-align: center;
+    height: 20px;
+    background-color:#ffefef;
+    color: #971D1D;
+    border-radius: 8px;
+}

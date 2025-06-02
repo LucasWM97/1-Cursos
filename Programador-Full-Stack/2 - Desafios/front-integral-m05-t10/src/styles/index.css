@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap%22");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap%22");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap%22");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap%22");
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+}
+
+:root {
+  --cinza-claro: #F8F8F9;
+  --cinza-escuro: #F0F0F5;
+  --rosa: #DA0175;
+}
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-center-column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+ font-family: Nunito, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
