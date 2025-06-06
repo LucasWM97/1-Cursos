@@ -3,8 +3,7 @@ package br.com.alura.screenmatch.modelos;
 import br.com.alura.screenmatch.calculo.Classificavel;
 
 public class Filme extends Titulo implements Classificavel {
-
-    private  String diretor;
+    private String diretor;
 
     public String getDiretor() {
         return diretor;
@@ -15,7 +14,7 @@ public class Filme extends Titulo implements Classificavel {
     }
 
     @Override
-    public int getClasssificacao() {
-        return 0;
+    public int getClassificacao() {
+        return (int) pegaMedia() / 2;
     }
 }
